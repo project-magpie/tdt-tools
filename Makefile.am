@@ -18,11 +18,6 @@ SUBDIRS = \
 	libmmeimage \
 	ipbox_eeprom
 
-if BOXTYPE_TF7700
-SUBDIRS += \
-	tffpctl \
-	tfd2mtd
-endif
 
 if ENABLE_EPLAYER3
 SUBDIRS += \
